@@ -1,0 +1,23 @@
+[
+  {
+    "objectID": "r_component.html",
+    "href": "r_component.html",
+    "title": "Data Science Homework Intro",
+    "section": "",
+    "text": "Being a data scientist is about being able to understand and manipulate data while also being able to effectively communicate the story it’s telling\nData scientists and statisticians are similar …\nMy background is in statistics but I am currently perusing a career path in data science…"
+  },
+  {
+    "objectID": "r_component.html#questions",
+    "href": "r_component.html#questions",
+    "title": "Data Science Homework Intro",
+    "section": "",
+    "text": "Being a data scientist is about being able to understand and manipulate data while also being able to effectively communicate the story it’s telling\nData scientists and statisticians are similar …\nMy background is in statistics but I am currently perusing a career path in data science…"
+  },
+  {
+    "objectID": "r_component.html#r-code",
+    "href": "r_component.html#r-code",
+    "title": "Data Science Homework Intro",
+    "section": "R Code:",
+    "text": "R Code:\nThis code saves an object as ‘y’ that reports the density of the petal.width column on the iris data set:\n\ny &lt;- density(iris$Petal.Width)\ny\n\n\nCall:\n    density.default(x = iris$Petal.Width)\n\nData: iris$Petal.Width (150 obs.);  Bandwidth 'bw' = 0.2518\n\n       x                 y            \n Min.   :-0.6555   Min.   :0.0005272  \n 1st Qu.: 0.3222   1st Qu.:0.0832811  \n Median : 1.3000   Median :0.2653324  \n Mean   : 1.3000   Mean   :0.2554014  \n 3rd Qu.: 2.2778   3rd Qu.:0.4193541  \n Max.   : 3.2555   Max.   :0.4978541  \n\n\nThe following code reports the class, type and structure of y:\n\nclass(y)\n\n[1] \"density\"\n\ntypeof(y)\n\n[1] \"list\"\n\nstr(y)\n\nList of 7\n $ x        : num [1:512] -0.656 -0.648 -0.64 -0.633 -0.625 ...\n $ y        : num [1:512] 0.00163 0.0018 0.00199 0.00219 0.00241 ...\n $ bw       : num 0.252\n $ n        : int 150\n $ call     : language density.default(x = iris$Petal.Width)\n $ data.name: chr \"iris$Petal.Width\"\n $ has.na   : logi FALSE\n - attr(*, \"class\")= chr \"density\"\n\n\nHere we have hidden the code that produces the following plot:"
+  }
+]

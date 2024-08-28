@@ -1,0 +1,35 @@
+---
+title: "Data Science Homework Intro"
+format: html
+editor: visual
+---
+
+## Questions:
+
+1.  Being a data scientist is about being able to understand and manipulate data while also being able to effectively communicate the story it's telling
+2.  Data scientists and statisticians are similar ...
+3.  My background is in statistics but I am currently perusing a career path in data science...
+
+## R Code:
+
+This code saves an object as 'y' that reports the density of the petal.width column on the iris data set:
+
+```{r}
+y <- density(iris$Petal.Width)
+y
+```
+
+The following code reports the class, type and structure of y:
+
+```{r}
+class(y)
+typeof(y)
+str(y)
+```
+
+Here we have hidden the code that produces the following plot:
+
+```{r}
+#| echo: false
+ plot(y)
+```
